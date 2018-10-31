@@ -25,8 +25,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mImgIds = new int[]{R.drawable.a1, R.drawable.a2, R.drawable.a3,
-                R.drawable.a4,R.drawable.a5, R.drawable.a6, R.drawable.a7,
-                R.drawable.a8,R.drawable.a9};
+                R.drawable.a4, R.drawable.a5, R.drawable.a6, R.drawable.a7,
+                R.drawable.a8, R.drawable.a9};
         setupJazziness(TransitionEffect.Tablet);
     }
 
@@ -95,7 +95,7 @@ public class MainActivity extends Activity {
         @Override
         public int getCount() {
             return mImgIds.length;
-           // return 9;
+            // return 9;
         }
 
         @Override
